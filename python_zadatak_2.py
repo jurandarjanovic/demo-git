@@ -1,0 +1,20 @@
+l1 = [99, -1, -1, 13, 3.14, 42, 0, -1, 6.7, 99, -1]
+print(l1)
+print("Broj elemenata u listi je: ")
+print(len(l1))
+V= float(input("Upisi vrijednost V: "))
+l1.append(V)
+print("Broj pojavljivanja vrijednosti V u listi je: ")
+print(l1.count(V))
+broj=len(l1)
+print("Broj elemenata u listi je: ")
+print(len(l1))
+if broj%2==0:
+  print("Broj elemenata u listi je paran")
+else:
+  print("Broj elemenata u listi je neparan")
+l1.sort()
+print("Sortirana lista od najmanjeg do najvećeg elementa")
+print(l1)
+print("-----------------------------------")
+input("Stisni bilo koju tipku za izlaz")
